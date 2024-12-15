@@ -61,8 +61,8 @@ export default function Testimonials() {
           Our Testimonials
         </h2>
 
-        <figure className="mt-10 h-64 flex flex-col justify-center items-center overflow-hidden">
-          <blockquote className="text-center text-lg font-medium text-gray-900 sm:text-xl">
+        <figure className="mt-10 h-100 sm:h-96 flex flex-col justify-center items-center overflow-hidden">
+          <blockquote className="text-center text-lg font-medium text-gray-900">
             <p>{testimonials[currentTestimonial].text}</p>
           </blockquote>
           <figcaption className="mt-4 text-center">
